@@ -1,0 +1,201 @@
+body{
+  font-family: cursive,cursive;
+  width: 100%;
+  transition: 2s;
+}
+.home{
+  background-image: url("../acsert/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100% ;
+  width: 100%;
+  height: 500px;
+}
+.bottom{
+  background-image: url("../acsert/bgu.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100% ;
+  width: 100%;
+  height: 500px;
+
+}
+.heading{
+/* text-align: center; */
+color: rgb(0, 47, 255);
+font-size: 60px;
+/* padding-left: 20%;
+padding-top: 20%; */
+}
+.textdiv{
+  color: rgb(22, 22, 22);
+  padding-left: 60px;
+  padding-top: 60PX;
+}
+.button{
+  background-color: rgb(0, 47, 255);
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  width: 150px;
+}
+.heading1{
+  color: rgb(0, 47, 255);
+  font-size: 40px;
+  text-align: center;
+  align-items: center;
+}
+.text{
+  text-align: center;
+
+}
+/* .navbar{
+  position: fixed !important;
+  width: 100% !important;
+  z-index: 1;
+} */
+.Cards{
+  align-items: center;
+  margin: 10px auto;
+  width: 100%;
+  height: 60%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* margin-left: 30px; */
+
+}
+.card{
+  margin-top: 20px;
+  padding-top: 30px;
+  border: 1px solid rgb(39,74,226);
+  /* margin-left: 20px; */
+  width: 24%;
+  background-color: white;
+  transition: 3S;
+  color: black;
+  text-align: center;
+  margin-left: 10px;
+}
+.card:hover{
+background-color: rgb(39, 74, 228);
+color: white;
+box-shadow: 4px 4px 4px  4px;
+}
+.cardh1{
+  font-size: 32px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+.cardh4{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  text-align: start;
+  padding-left: 10px;
+  height: 20%;
+  text-align: center;
+}
+.cardh5{
+  padding-top: 50px;
+  padding-bottom: 5px;
+  font-size: 25px;
+  color: rgb(10, 10, 10);
+}
+.cardprice{
+  padding-top: 5px;
+  padding-bottom: 60px;
+  font-size: 30px;
+}
+.cardbutton{
+  color: white;
+  background-color: rgb(39, 74, 228);
+  border: 0.5px solid rgb(168, 164, 164);
+}
+.botom_div{
+  padding-top: 200px;
+  text-align: center;
+  color: white;
+}
+.bottom_heading{
+  color: white;
+}
+.bottom_text{
+  font-size: 25px;
+  /* text-decoration: underline; */
+}
+.input_div{
+  background-color: white;
+  width: 400px;
+  border: 2px solid white;
+  border-radius: 55px;
+  margin: 10px auto;
+}
+.input{
+  width: 70%;
+  border: none;
+  outline: none;
+  
+}
+.bottom_btn{
+  background-image: linear-gradient(to bottom right, blue, purple);
+color: white;
+border: none;
+width: 100px;
+border-radius: 50px;
+}
+.icondiv{
+  margin: 10px auto;
+}
+.icon{
+  width: 50px;
+  height: 50px;
+  border-radius: 55px;
+  border: 2px solid black;
+  transition: 1s;
+  opacity: 5;
+}
+.icon:hover{
+  opacity: 0.2;
+}
+
+
+
+
+
+/* //////////////// */
+@media only screen and (max-width: 1000px) {
+ .card{
+   width: 40%;
+   margin-left: 60px;
+   margin-top: 20px;
+ }
+}
+@media only screen and (max-width: 600px) {
+  .card{
+    width: 90%;
+    margin: 10px auto;
+  }
+  .heading{
+    /* text-align: center; */
+    color: rgb(0, 47, 255);
+    font-size: 30px;
+    /* padding-left: 20%;
+    padding-top: 20%; */
+    }
+    .input_div{
+      background-color: white;
+      width: 300px;
+      border: 2px solid white;
+      border-radius: 55px;
+      margin: 10px auto;
+    }
+    .bottom_btn{
+      background-image: linear-gradient(to bottom right, blue, purple);
+    color: white;
+    border: none;
+    width: 80px;
+    border-radius: 50px;
+    }
+ }
+ 
